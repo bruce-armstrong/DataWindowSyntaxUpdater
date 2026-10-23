@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="dwsyntaxupdater"/>
+  <DeployConfigurations OutputDirectory="Build\bin\$(ConfigurationName)">
+    <DeployConfiguration Name="p_dwsyntaxupdater_exe" Path="dwsyntaxupdater.pbl\p_dwsyntaxupdater_exe.srj"/>
+  </DeployConfigurations>
+  <Libraries AppEntry="dwsyntaxupdater.pbl">
+    <Library Path="dwsyntaxupdater.pbl"/>
+  </Libraries>
+</Project>

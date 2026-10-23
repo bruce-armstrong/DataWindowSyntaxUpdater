@@ -1,0 +1,12 @@
+# Build output
+/.pb/
+/build/
+*.exe
+*.pbd
+dwsyntaxupdater.xml
+
+# Per-user IDE settings
+*.usr.opt
+
+# Run logs
+*.log
