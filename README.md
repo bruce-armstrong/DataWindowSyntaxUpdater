@@ -44,7 +44,7 @@ Each file gets one log line: `CONVERTED` (with the old and new release), `CURREN
 
 ## Samples
 
-`samples` holds 15 unconverted DataWindows from PFC 2025: releases 5 to 22, including some with initial data, nested reports and drop-down DataWindows. To see what a conversion does, run the utility on them and look at the diff:
+`samples` holds 15 unconverted DataWindows from PFC 2025 (see [License](#license)): releases 5 to 22, including some with initial data, nested reports and drop-down DataWindows. To see what a conversion does, run the utility on them and look at the diff:
 
 ```
 dwsyntaxupdater.exe samples
@@ -65,3 +65,7 @@ The last command puts the samples back the way they were.
 ## Tested on
 
 PFC 2025's 164 DataWindows (releases 5 to 22, eight of them with initial data, three with nested reports): all converted to release 25, a second run found them all current, and a project built from the converted DataWindows compiled cleanly.
+
+## License
+
+DataWindow Syntax Updater is released under the MIT License; see [LICENSE.txt](LICENSE.txt). The DataWindows in `samples` come from the [PowerBuilder Foundation Classes](https://github.com/OpenSourcePFCLibraries/2025-Solution) and are covered by PFC's own MIT License, in [samples/LICENSE.txt](samples/LICENSE.txt).
